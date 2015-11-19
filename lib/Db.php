@@ -134,4 +134,9 @@ class Db
 
         return $query;
     }
+
+    public function getConnect()
+    {
+        return $this->_connect;
+    }
 }
